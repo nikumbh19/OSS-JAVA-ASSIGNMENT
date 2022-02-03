@@ -5,7 +5,35 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-02-01T11:00:00Z</updated>
+  <updated>2022-02-02T12:00:00Z</updated>
+  <entry>
+    <title>Spring Tools 4.13.1 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/02/02/spring-tools-4-13-1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Martin Lippert</name>
+    </author>
+    <id>tag:spring.io,2022-02-02:4690</id>
+    <updated>2022-02-02T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am happy to announce the 4.13.1 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.&lt;/p&gt;&lt;h4&gt;&lt;a href="#fixes-and-improvements" class="anchor" name="fixes-and-improvements"&gt;&lt;/a&gt;fixes and improvements&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; improvement: Consider if content assist can be offered for spring.config.import property keys (&lt;a href="https://github.com/spring-projects/sts4/issues/536"&gt;#536&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; fixed: YAML editor generates wrong EOL characters in Windows (&lt;a href="https://github.com/spring-projects/sts4/issues/709"&gt;#709&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(VSCode)&lt;/em&gt; fixed: Always pop up a prompt box: indexing spring boot properties (&lt;a href="https://github.com/spring-projects/sts4/issues/697"&gt;#697&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(VSCode)&lt;/em&gt; fixed: Spring Boot Tools for VS Code incorrectly misidentifies internal JDK for Language Support for Java as a JRE (&lt;a href="https://github.com/spring-projects/sts4/issues/715"&gt;#715&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; fixed: Create or modify new project - maven update problem (&lt;a href="https://github.com/spring-projects/sts4/issues/703"&gt;#703&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Tools 4: &lt;a href="https://spring.io/tools/"&gt;https://spring.io/tools/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you are updating an existing Spring Tools 4.12.1 (or prior) installation, please make sure you to prepare your installation properly: &lt;a href="https://twitter.com/springtools4/status/1468587842838355980"&gt;https://twitter.com/springtools4/status/1468587842838355980&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Detailed changes can be found here: &lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2022-02-02-4131-release-incl-language-servers-version-1300"&gt;https://github.com/spring-projects/sts4/wiki/Changelog#2022-02-02-4131-release-incl-language-servers-version-1300&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spring Tools 4.14.0 is scheduled to be released in late March 2022.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - February 1st, 2022</title>
     <link rel="alternate" href="https://spring.io/blog/2022/02/01/this-week-in-spring-february-1st-2022" />
@@ -869,20 +897,6 @@ There are many levels on which you may choose to implement the desired behavior.
 &lt;div class="paragraph"&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-security/reference/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring REST Docs 2.0.6.RELEASE</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/01/17/spring-rest-docs-2-0-6-release" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2022-01-17:4670</id>
-    <updated>2022-01-17T13:39:00Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring REST Docs &lt;code&gt;2.0.6.RELEASE&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
-&lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-restdocs/releases/tag/v2.0.6.RELEASE"&gt;18 bug fixes and documentation improvements&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://spring.io/projects/spring-restdocs/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-restdocs"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-restdocs/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-restdocs/docs/2.0.6.RELEASE/reference/html5"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-restdocs"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-restdocs"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
