@@ -5,7 +5,26 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-02-02T12:00:00Z</updated>
+  <updated>2022-02-04T01:00:00Z</updated>
+  <entry>
+    <title>A Bootiful Podcast: Former Spring Data lead and architect extraordinaire, Oliver Drotbohm</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/02/03/a-bootiful-podcast-former-spring-data-lead-and-architect-extraordinaire-oliver-drotbohm" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-02-04:4691</id>
+    <updated>2022-02-04T01:00:00Z</updated>
+    <content type="html">&lt;br/&gt;
+&lt;iframe title="Former Spring Data lead and architect extraordinaire, Oliver Drotbohm" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=m5a2f-1199a3e-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;btn-skin=7"&gt;&lt;/iframe&gt;
+&lt;p&gt;Hi, Spring fans! In this installment, &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to former Spring Data lead and architect extraordinaire, &lt;a href="https://twitter.com/odrotbohm"&gt;Oliver Drotbohm (@odrotbohm)&lt;/a&gt; about building elegant architectures.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/xmolecules/jmolecules"&gt;jMolecules&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/moduliths/moduliths"&gt;Moduliths&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://odrotbohm.de/2021/02/Architecturally-evident-code-with-jMolecules/"&gt;Architecturally Evident Code with jMolecules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Tools 4.13.1 released</title>
     <link rel="alternate" href="https://spring.io/blog/2022/02/02/spring-tools-4-13-1-released" />
@@ -871,32 +890,6 @@ There are many levels on which you may choose to implement the desired behavior.
 &lt;p&gt;This initial 3.0 milestone contains &lt;a href="https://github.com/spring-projects/spring-restdocs/releases/tag/v3.0.0-M1"&gt;13 enhancements, documentation improvements, and dependency upgrades&lt;/a&gt;. It covers the baseline upgrade efforts, in particular requiring JDK 17 and Spring Framework 6 and migrating to the Jakarta EE 9 APIs as announced in this &lt;a href="https://spring.io/blog/2021/09/02/a-java-17-and-jakarta-ee-9-baseline-for-spring-framework-6"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Please note that support for REST Assured has been removed temporarily as it is &lt;a href="https://github.com/rest-assured/rest-assured/issues/1510"&gt;not yet compatible with Jakarta EE 9&lt;/a&gt;. We hope to reinstate support in a subsequent milestone prior to 3.0&amp;rsquo;s release towards the end of this year.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://spring.io/projects/spring-restdocs/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-restdocs"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-restdocs/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-restdocs/docs/3.0.0-M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-restdocs"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-restdocs"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Security 6.0.0-M1 and 5.7.0-M1 available now</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/01/17/spring-security-6-0-0-m1-and-5-7-0-m1-available-now" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Marcus Hert Da Coregio</name>
-    </author>
-    <id>tag:spring.io,2022-01-17:4671</id>
-    <updated>2022-01-17T16:00:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Security &lt;code&gt;6.0.0-M1&lt;/code&gt; and &lt;code&gt;5.7.0-M1&lt;/code&gt; are available now.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This initial 6.0 milestone covers the baseline upgrade efforts, in particular requiring JDK 17+ and migrating to the Jakarta EE 9 APIs, required by Spring Framework 6, as announced in this &lt;a href="https://spring.io/blog/2021/09/02/a-java-17-and-jakarta-ee-9-baseline-for-spring-framework-6"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For the release changes, please refer to the &lt;a href="https://github.com/spring-projects/spring-security/releases"&gt;releases page&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Stay tuned for the announcement of Spring Boot &lt;code&gt;3.0.0-M1&lt;/code&gt; this week!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-security/reference/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
